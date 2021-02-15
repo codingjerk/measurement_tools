@@ -57,7 +57,7 @@ def _draw_countrymap(cut_countries, fname):
     countrymap = folium.Map(
         location=[20, 20],
         zoom_start=3, min_zoom=2, max_zoom=8,
-        tiles='Mapbox Bright'
+        tiles='Stamen Terrain',
     )
 
     folium.GeoJson(

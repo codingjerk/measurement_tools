@@ -32,7 +32,7 @@ def _make_map(ping_results, fname):
     dns_map = folium.Map(
         location=[20, 20],
         zoom_start=2, max_zoom=10, min_zoom=2,
-        tiles='Mapbox Bright'
+        tiles='Stamen Terrain',
     )
 
     resolves_counters = defaultdict(int)
